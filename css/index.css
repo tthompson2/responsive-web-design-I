@@ -64,17 +64,17 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* index.html's CSS starts here */
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  border: 5px solid green; 
 }
 
 @media (max-width: 300px) {
 
     .container {
-        max-width: 300px;
         margin: 0 auto;
     }
 
@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 500px) {
 
     .container {
-        max-width: 500px;
         margin: 0 auto;
     }
 
@@ -134,7 +133,6 @@ header nav a:hover {
 @media (max-width: 500px)
 {
     header {
-
        width: 100%;
        display: flex;
        justify-content: space-between; 
@@ -142,7 +140,6 @@ header nav a:hover {
     }
 
     header nav a {
-
         padding-right: 90px;
     }
 }
@@ -157,7 +154,6 @@ header nav a:hover {
     }
 
     header nav a {
-
         width: 100%; 
         color: #b0b0b0;
         border: 1px double black;
@@ -168,7 +164,6 @@ header nav a:hover {
         cursor: pointer;
         flex-wrap: wrap;
         text-align: center;
-
     }
 }
 
@@ -379,17 +374,17 @@ footer {
   
   .next_info {
     display: flex;
-    width: 380px;
-    height: 400px;
+    flex-direction: column-reverse;
+    width: 800px;
+    height: 500px;
     margin-top: 15px;
     margin-left: 40px;
-    background-color: grey;
+    border: 10px solid purple;
   }
 
   @media (max-width: 500px) {
 
      .next_info {
-
       display: flex;
       flex-direction: column;
      }
@@ -407,13 +402,13 @@ footer {
       padding-top: 10px;
       border-bottom: 1px solid black;
       padding-bottom: 15px;
-       width: 100%; 
-       height: 100%;
-       margin-top: 15px;
-       margin-left: 10px;
-       background-color: grey;
-       justify-content: center;
-       border: 1px solid red; 
+      width: 100%; 
+      height: 100%;
+      margin-top: 15px;
+      margin-left: 10px;
+      background-color: grey;
+      justify-content: center;
+      border: 1px solid red; 
   }
   
    .main-text button {
@@ -457,4 +452,8 @@ footer {
         display: none;
     }
 
+  }
+
+  .services-info-img {
+      display: none;
   }
