@@ -49,7 +49,6 @@ a {
   color: inherit;
 }
 
-/* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
 }
@@ -268,4 +267,19 @@ footer {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.main-info {
+    display: flex;
+}
+
+.main-text {
+    width: 45%;
+}
+
+@media (max-width: 300px) {
+
+    .main-text {
+        width: 33%;
+    }
 }
