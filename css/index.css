@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* index.html's CSS starts here */
 
 .container {
-  max-width: 100%; 
+  max-width: 880px; 
   margin: 0 auto;
 }
 
@@ -409,15 +409,15 @@ footer {
   
     .main-text {
       padding-top: 10px;
-      border-bottom: 1px solid black;
+      border: 1px solid black;
       padding-bottom: 15px;
-      width: 25%; 
+      width: 30%; 
       height: 50%;
       margin-top: 15px;
       margin-left: 10px;
       background-color: grey;
       justify-content: center;
-      border: 1px solid red; 
+     
   }
   
    .main-text button {
